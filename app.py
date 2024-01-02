@@ -38,7 +38,7 @@ property_type_mapping = {
     "Residential Plot": 3
 }
 
-with open('Model.pkl', 'rb') as f:
+with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 with open('Scaler.pkl', 'rb') as f:
